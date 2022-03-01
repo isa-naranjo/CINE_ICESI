@@ -6,7 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 
-public class Función {
+public class Función{
 
     @FXML
     private Button cuatroBT;
