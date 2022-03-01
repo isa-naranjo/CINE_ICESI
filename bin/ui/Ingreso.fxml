@@ -15,7 +15,7 @@
             <Image url="@../../../../../Imágenes/torre_peque.jpn.gif" />
          </image>
       </ImageView>
-      <PasswordField layoutX="13.0" layoutY="223.0" prefHeight="35.0" prefWidth="179.0" />
+      <PasswordField fx:id="ccPW" layoutX="13.0" layoutY="223.0" prefHeight="35.0" prefWidth="179.0" />
       <Label layoutX="11.0" layoutY="200.0" text="Igrense su numero de cedula" textFill="#fffdfd">
          <font>
             <Font name="Bookman Old Style" size="13.0" />
@@ -26,6 +26,6 @@
             <Image url="@../../../../../Imágenes/Logo-Universidad-ICESI.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="64.0" layoutY="277.0" mnemonicParsing="false" opacity="0.69" prefHeight="35.0" prefWidth="79.0" text="Ingresar" textFill="#2200ff" />
+      <Button fx:id="ingresarBT" layoutX="64.0" layoutY="277.0" mnemonicParsing="false" onAction="#ingresar" opacity="0.69" prefHeight="35.0" prefWidth="79.0" text="Ingresar" textFill="#2200ff" />
    </children>
 </AnchorPane>

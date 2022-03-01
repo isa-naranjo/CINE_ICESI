@@ -25,13 +25,13 @@
             <Image url="@../../../../../Imágenes/Logo-Universidad-ICESI.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="55.0" layoutY="367.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="116.0" style="-fx-background-color: WHITE;" text="REGISTRAR" />
-      <TextField layoutX="14.0" layoutY="205.0" />
+      <Button fx:id="registrarBT" layoutX="55.0" layoutY="367.0" mnemonicParsing="false" onAction="#registrar" prefHeight="33.0" prefWidth="116.0" style="-fx-background-color: WHITE;" text="REGISTRAR" />
+      <TextField fx:id="nameStudentTF" layoutX="14.0" layoutY="205.0" />
       <Label layoutX="10.0" layoutY="240.0" prefHeight="6.0" prefWidth="221.0" text="IDENTIFICACIÓN:" textFill="#fcfcfc">
          <font>
             <Font name="Bookman Old Style" size="13.0" />
          </font>
       </Label>
-      <TextField layoutX="14.0" layoutY="268.0" />
+      <TextField fx:id="idStudentTF" layoutX="14.0" layoutY="268.0" />
    </children>
 </AnchorPane>

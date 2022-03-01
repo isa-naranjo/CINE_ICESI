@@ -36,21 +36,21 @@
             <Font name="Bookman Old Style Bold Italic" size="15.0" />
          </font>
       </Label>
-      <TextField layoutX="142.0" layoutY="198.0" />
-      <DatePicker layoutX="127.0" layoutY="259.0" />
-      <TextField layoutX="140.0" layoutY="136.0" />
-      <Button layoutX="122.0" layoutY="366.0" mnemonicParsing="false" text="4:00 PM" />
-      <Button layoutX="217.0" layoutY="366.0" mnemonicParsing="false" text="6:00 PM" />
-      <Button layoutX="217.0" layoutY="324.0" mnemonicParsing="false" text="1:00 PM" />
-      <Button layoutX="122.0" layoutY="324.0" mnemonicParsing="false" text="9:00 AM" />
-      <Button layoutX="205.0" layoutY="425.0" mnemonicParsing="false" text="SALA MEDIA" />
-      <Button layoutX="105.0" layoutY="425.0" mnemonicParsing="false" text="MINI SALA" />
+      <TextField fx:id="duracionTF" layoutX="142.0" layoutY="198.0" />
+      <DatePicker fx:id="fechaDP" layoutX="127.0" layoutY="259.0" />
+      <TextField fx:id="peliculaTF" layoutX="140.0" layoutY="136.0" />
+      <Button fx:id="cuatroBT" layoutX="122.0" layoutY="366.0" mnemonicParsing="false" text="4:00 PM" />
+      <Button fx:id="seisBT" layoutX="217.0" layoutY="366.0" mnemonicParsing="false" text="6:00 PM" />
+      <Button fx:id="unaBT" layoutX="217.0" layoutY="324.0" mnemonicParsing="false" text="1:00 PM" />
+      <Button fx:id="nueveBT" layoutX="122.0" layoutY="324.0" mnemonicParsing="false" text="9:00 AM" />
+      <Button fx:id="mediaBT" layoutX="205.0" layoutY="425.0" mnemonicParsing="false" onAction="#sala" text="SALA MEDIA" />
+      <Button fx:id="miniBT" layoutX="105.0" layoutY="425.0" mnemonicParsing="false" onAction="#sala" text="MINI SALA" />
       <ImageView fitHeight="111.0" fitWidth="397.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../Imágenes/torre%20(1).jpg" />
          </image>
       </ImageView>
-      <Button layoutX="179.0" layoutY="492.0" mnemonicParsing="false" text="GUARDAR" />
+      <Button fx:id="guardar" layoutX="179.0" layoutY="492.0" mnemonicParsing="false" onAction="#save" text="GUARDAR" />
       <ImageView fitHeight="96.0" fitWidth="120.0" layoutX="276.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../Imágenes/logo-icesi2.jpg" />
