@@ -301,6 +301,6 @@
       <RadioButton layoutX="609.0" layoutY="522.0" mnemonicParsing="false" style="-fx-background-color: WHILE;" />
       <RadioButton layoutX="636.0" layoutY="522.0" mnemonicParsing="false" style="-fx-background-color: WHILE;" />
       <RadioButton layoutX="664.0" layoutY="522.0" mnemonicParsing="false" style="-fx-background-color: WHILE;" />
-      <Button layoutX="685.0" layoutY="81.0" mnemonicParsing="false" opacity="0.73" prefHeight="37.0" prefWidth="118.0" style="-fx-background-color: BLACK;" text="GUARDAR" textFill="#f7f7f7" />
+      <Button layoutX="685.0" layoutY="81.0" mnemonicParsing="false" onAction="#verReservas" opacity="0.73" prefHeight="37.0" prefWidth="118.0" style="-fx-background-color: BLACK;" text="GUARDAR" textFill="#f7f7f7" />
    </children>
 </AnchorPane>
